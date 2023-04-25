@@ -37,6 +37,13 @@ sudo make modules_install
 sudo cp -v arch/x86_64/boot/bzImage /boot/vmlinuz-6.3-x86_64
 ```
 
+### reboot
+
+Checking the kernel version after reboot
+```
+cat /proc/version
+```
+
 need to continue from initramfs
 https://forum.manjaro.org/t/howto-build-your-very-first-custom-kernel/47683
 https://www.youtube.com/watch?v=VVunP3yDgm4 time 21:00
