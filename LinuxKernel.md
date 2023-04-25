@@ -38,6 +38,7 @@ sudo cp -v arch/x86_64/boot/bzImage /boot/vmlinuz-6.3-x86_64
 ```
 
 ### reboot
+entering the grub boot menu is using "Esc" key.
 
 Checking the kernel version after reboot
 ```
